@@ -12,7 +12,7 @@ function draw() {
     fill('#00ffb3');
     stroke('#00ffb3');
  }
- if (Difference < 200) {
+ if (Difference > 200 && Difference < 300) {
     fill('#1500ff');
     stroke('#1500ff');
  }
